@@ -7,11 +7,5 @@ public class SnakeAndLadder {
 		
 		int position = 0;
 		System.out.println("player position is = " + position);
-		
-		int value;
-        double rand = Math.random();
-        value = (int) (1 + rand * 6);
-
-        System.out.println("Dice number is = " + value);
 	}
 }
