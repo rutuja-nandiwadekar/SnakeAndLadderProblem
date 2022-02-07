@@ -3,6 +3,7 @@ package com.bridgelabz;
 public class SnakeAndLadder {
 
 	public static void main(String[] args) {
+		
 		System.out.print("Welcome to Snake and Ladder Problem");
 
 		int ladder = 1;
@@ -32,6 +33,6 @@ public class SnakeAndLadder {
 			movesBehind = (value - position);
 			System.out.println("Player moves behind by the " + movesBehind);
 		} else
-			System.out.println("No Play.. the player stays in the same position");
+			System.out.println("No Play. The player stays in the same position");
 	}
 }
